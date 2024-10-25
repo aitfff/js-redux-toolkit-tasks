@@ -1,12 +1,10 @@
 {
     "dependencies": {
-        "@babel/preset-react": "^7.22.3",
         "@reduxjs/toolkit": "^2.2.6",
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^16.0.0",
         "@testing-library/user-event": "^14.4.3",
         "axios": "^1.7.2",
-        "babel-jest": "^29.5.0",
         "babel-loader": "^9.1.2",
         "escape-html": "^1.0.3",
         "html-webpack-plugin": "^5.5.1",
@@ -37,7 +35,10 @@
         "testTimeout": 10000
     },
     "devDependencies": {
-        "@babel/preset-env": "^7.21.5",
+        "@babel/core": "^7.25.9",
+        "@babel/preset-env": "^7.25.9",
+        "@babel/preset-react": "^7.25.9",
+        "babel-jest": "^29.7.0",
         "nock": "^13.5.4",
         "webpack-dev-server": "^4.15.0",
         "whatwg-fetch": "^3.6.20"
